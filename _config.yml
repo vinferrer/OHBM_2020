@@ -13,9 +13,9 @@
 # Site settings
 owner:
   name: Eneko Uruñuela # or company name
-  url: "http://example.com" # your URL
-url: "http://example.com" # the base hostname & protocol for this site
-baseurl: "" # the subpath of your site, e.g. /blog
+  url: "http://eurunuela.github.io" # your URL
+url: "http://eurunuela.github.io" # the base hostname & protocol for this site
+baseurl: "/OHBM_2020" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
             # besides this blog.
