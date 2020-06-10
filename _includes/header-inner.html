@@ -1,0 +1,9 @@
+  <header>
+    <h1>{{ page.title }}{%
+    if page.options contains 'minihead' %}
+    <span class="excerpt-inline"> - {{ page.description }}</span></h1>{%
+    else %}</h1>
+    <p>{{ page.description }}</p>{%
+    endif %}
+  </header>
+  <!-- {% include breadcrumb.html %} -->

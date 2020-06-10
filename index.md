@@ -1,0 +1,28 @@
+---
+layout: landing
+title: Improving Deconvolution of fMRI Signal with Sparse Paradigm Free Mapping Using Stability Selection
+description: Eneko Uruñuela, Stephen Jones, Anna Crawford, Wanyong Shin, Sehong Oh, Mark Lowe, Cesar Caballero-Gaudes
+publication: OHBM 2020
+year: 2020
+background-image: works-sample.png
+owner:
+  name: Eneko Uruñuela
+social:
+  twitter: https://twitter.com/eurunuela
+  github: https://github.com/eurunuela
+  email: e.urunuela@bcbl.eu
+---
+
+
+# [This is a test](#this-is-a-test)
+
+This is a test
+
+```python
+import numpy as np
+s = 'This is a test'
+```
+
+![](https://images.unsplash.com/photo-1591803026220-6385999e82b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80){:width="100%"}
+
+# [Second test](#second-test)

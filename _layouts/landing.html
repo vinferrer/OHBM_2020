@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% include topcomment.html %}
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      {% include header.html %}
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.description }}</p>
+          <!--
+          <ul class="actions">
+            <li><a href="#" class="button special">Activate</a></li>
+          </ul>
+          -->
+        </div>
+        <a href="#" class="more scrolly">Continue</a>
+      </section>
+
+
+      <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
+        <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">
+          {{ content }}
+        </div>
+      </section>
+
+      {% include footer.html %}
+
+      {% include scripts.html %}
+
+    </div>
+
+  </body>
+
+</html>
