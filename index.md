@@ -4,7 +4,9 @@ title: Improving Deconvolution of fMRI Signal with Sparse Paradigm Free Mapping 
 description: Eneko Uruñuela, Stephen Jones, Anna Crawford, Wanyong Shin, Sehong Oh, Mark Lowe, Cesar Caballero-Gaudes
 publication: OHBM 2020
 year: 2020
-background-image: works-sample.png
+button:
+  link: https://github.com/eurunuela/OHBM_2020/raw/master/OHBM_2020_poster.pdf
+  name: Poster
 owner:
   name: Eneko Uruñuela
 social:

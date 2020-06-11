@@ -17,10 +17,11 @@
           <h1>{{ page.title }}</h1>
           <p>{{ page.description }}</p>
 
+          {% if page.button %}
           <ul class="actions">
-            <li><a href="https://github.com/eurunuela/OHBM_2020/raw/master/OHBM_2020_poster.pdf" class="button special">Poster</a></li>
+            <li><a href="{{page.button.link}}" class="button special">{{page.button.name}}</a></li>
           </ul>
-
+          {% endif %}
         </div>
         <a href="#" class="more scrolly">Continue</a>
       </section>
