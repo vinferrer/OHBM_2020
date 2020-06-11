@@ -18,13 +18,11 @@ social:
 
 # [Introduction](#Introduction)
 
-This is a test
+Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-known risk factor for dementia. Nevertheless, MCI key network changes are still mostly unknown. Functional connectivity resting state networks (RSNs), such as the default mode, dorsal attention, executive control and sensorimotor networks, have been reported to correlated with cognitive deficits in PD. This study investigates how whole-brain functional networks are affected by MCI in PD using a Connectome ICA (connICA) analysis with resting state functional MRI (RS-fMRI).
 
-```python
-import numpy as np
-s = 'This is a test'
-```
+![hola](https://images.unsplash.com/photo-1591803026220-6385999e82b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80){:width="100%"}
 
-![](https://images.unsplash.com/photo-1591803026220-6385999e82b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80){:width="100%"}
+# [Methods](#Methods)
 
-# [Second test](#second-test)
+
+# [Results](#Results)
