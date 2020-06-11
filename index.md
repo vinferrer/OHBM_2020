@@ -1,22 +1,22 @@
 ---
 layout: landing
-title: Improving Deconvolution of fMRI Signal with Sparse Paradigm Free Mapping Using Stability Selection
-description: Eneko Uruñuela, Stephen Jones, Anna Crawford, Wanyong Shin, Sehong Oh, Mark Lowe, Cesar Caballero-Gaudes
+title: Characteristic Traits of Mild cognitive impairment in Parkinson's disease
+description: Vicente Ferrer-Gallardo, Manuel Delgado, Irene Navalpotro, Stefano Moia, Manuel Carreiras, Pedro M. Paz Alonso, María Cruz Rodriguez-Oroz, César Caballero-Gaudes
 publication: OHBM 2020
 year: 2020
 button:
-  link: https://github.com/eurunuela/OHBM_2020/raw/master/OHBM_2020_poster.pdf
+  link: https://github.com/vinferrer/OHBM_2020/raw/master/OHBM_2020_poster.pdf
   name: Poster
 owner:
-  name: Eneko Uruñuela
+  name: Vicente Ferrer
 social:
-  twitter: https://twitter.com/eurunuela
-  github: https://github.com/eurunuela
-  email: e.urunuela@bcbl.eu
+  twitter: https://twitter.com/VFerrerGallardo
+  github: https://github.com/vinferrer
+  email: vferrer@bcbl.eu
 ---
 
 
-# [This is a test](#this-is-a-test)
+# [Introduction](#Introduction)
 
 This is a test
 
