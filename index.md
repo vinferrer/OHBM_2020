@@ -24,7 +24,7 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 
 # [Dataset](#Dataset)
 ![](./images/dataset.jpg){:width="100%"}
-**Figure 1: 87 participants (26 PDCN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained. A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. PD patients were under anti-parkinsonian medication during the study.
+**Figure 1: 87 participants (26 PDCN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained. A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. PD patients were under anti-parkinsonian medication during the study.**
 
 
 # [Results](#Results)
