@@ -27,7 +27,7 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 
 # [Acqusition and Preprocesing](#Preprocesing)
 For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms). 
-![](./images/Anatomical_preprocessing.jpg){:width="50%"}
+![](./images/Anatomical_preprocessing.jpg){:width="100%"}
 **Figure 2: Anatomical Preprocessing**
 Brain parcellation was performed using FreeSurfer based on the Destrieux atlas (72 cortical and 8 subcortical regions for hemisphere)[^2]. Structural images were registered to the functional images.
 fMRI preprocessing included despiking, slice timing, EPI distortion correction, head realignment and nuisance regression. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained. FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas
