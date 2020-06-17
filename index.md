@@ -43,13 +43,17 @@ FC matrices were computed using Schaefer atlas plus subcortical areas of Destrie
 Linear mixed effect (LME) model on the weights of each FC-trait with group (HC, PDCN, PD-MCI) with the sequence (monoband, multiband) as fixed factor, and subjects as random factor. Anova p-values are corrected (Bonferroni method). Incremental ANOVAs and individual F-tests were computed to evaluate the relationship between the FC-traits and neuropsychological assessments.
 # [Results](#Results)
 ![](./images/Trait5.jpg){:width="100%"}
-**Figure 3: FC-trait 5 has subcortical hubs in putamen, caudate and thalamus, highlighting a clear manifestation of the ganglia-thalamo-cortical alterations [8] at the onset of PD. This FC-trait is mainly associated with attentional tests implying attentional deficits at the beginning of PD.**
+**Figure 3:**
+FC-trait 5 has subcortical hubs in putamen, caudate and thalamus, highlighting a clear manifestation of the ganglia-thalamo-cortical alterations at the onset of PD. This FC-trait is mainly associated with attentional tests implying attentional deficits at the beginning of PD.
 ![](./images/Trait9.jpg){:width="100%"}
-**Figure 4: FC-trait 9 mainly involves inter- and intra-hemispheric connections between regions of the primary and secondary motor and somatosensory cortices and dorsal and ventral attention networks.  Although UPDRS-III is link to this trait, attention and memory behavioral test are significantly linked suggesting a motor disfunction in the PD-MCI patients that is related to attentional and memory impairments.  The significance of language test could be an effect from the semantic fluency test.**
+**Figure 4:**
+FC-trait 9 mainly involves inter- and intra-hemispheric connections between regions of the primary and secondary motor and somatosensory cortices and dorsal and ventral attention networks.  Although UPDRS-III is link to this trait, attention and memory behavioral test are significantly linked suggesting a motor disfunction in the PD-MCI patients that is related to attentional and memory impairments.  The significance of language test could be an effect from the semantic fluency test.
 ![](./images/Trait13.jpg){:width="100%"}
-**Figure 5: Trait 13 that compromises Visual-parietal and visual-executive control connections differentiates HC from PD groups. Anova regressions associate it to UPDRS-III which suggest a connection to motor symptoms.**
+**Figure 5:**
+Trait 13 that compromises Visual-parietal and visual-executive control connections differentiates HC from PD groups. Anova regressions associate it to UPDRS-III which suggest a connection to motor symptoms.
 ![](./images/Trait34.jpg){:width="100%"}
-**Figure 6: Trait 34 mainly shows the angular gyrus connecting to temporal, parietal and visual connections differentiates all three groups from each other. No behavioral links**
+**Figure 6:**
+Trait 34 mainly shows the angular gyrus connecting to temporal, parietal and visual connections differentiates all three groups from each other. No behavioral links.
 ---
 [^1]: Litvan I, Goldman JG, Tröster AI, Schmand BA, Weintraub D, Petersen RC, et al. Diagnostic criteria for mild cognitive impairment in Parkinson’s disease: Movement Disorder Society Task Force guidelines. Mov Disord 2012; 27: 349–56.
 [^2]:
