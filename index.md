@@ -5,7 +5,7 @@ description: Vicente Ferrer-Gallardo, Manuel Delgado, Irene Navalpotro, Stefano 
 publication: OHBM 2020
 year: 2020
 button:
-  link: https://github.com/vinferrer/OHBM_2020/raw/master/OHBM_2020_poster.pdf
+  link: https://github.com/vinferrer/OHBM_2020/raw/master/Characteristic_Traits_of_MCI_in_PD.pdf
   name: Poster
 owner:
   name: Vicente Ferrer
