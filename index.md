@@ -31,14 +31,14 @@ For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 
 **Figure 2: Anatomical Preprocessing**
 
 Brain parcellation was performed using FreeSurfer based on the Destrieux atlas (72 cortical and 8 subcortical regions for hemisphere)[^2]. Structural images were registered to the functional images.
-fMRI preprocessing included despiking, slice timing, EPI distortion correction, head realignment and nuisance regression. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained. FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas.
+fMRI preprocessing included despiking, slice timing, EPI distortion correction, head realignment and nuisance regression. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained.
 ![](./images/Functional_preprocessing.jpg){:width="100%"}
 **Figure 3: Functional Preprocessing**
 
 fMRI preprocessing (AFNI) included despiking, slice timing, EPI distortion correction, head realignment, nuisance regression (6 Legendre polynomials, 6 realignment parameters plus temporal derivatives, 5 principal components of WM and ventricle CSF voxels and 5 PCs of brain’s edge voxels). After Motion based censoring, (Frame wise displacement(9)> 0.4), 21 HC, 21 PDCN and, 23 PD-MCI subjects remained for further analysis.
 
 # [ConnICA](#ConnICA)
-FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas [^3] [^4] and then inputed to ConnICA [^5] using MELODIC with 65 independent FC-traits, which was the optimal PCA component for subject identifiability [^6]. 
+FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas [^3] and then inputed to ConnICA [^4] using MELODIC with 65 independent FC-traits, which was the optimal PCA component for subject identifiability [^5]. 
 ![](./images/ConnICA.jpg){:width="100%"}
 **Figure 4: ConnICA Analysis**
 
@@ -65,8 +65,7 @@ Trait 34 mainly shows the angular gyrus connecting to temporal, parietal and vis
  - Functional connections between attentional and sensorimotor regions are key for PD-MCI development, and are associated with deficits in attention and memory abilities.
 ---
 [^1]: Litvan I, Goldman JG, Tröster AI, Schmand BA, Weintraub D, Petersen RC, et al. Diagnostic criteria for mild cognitive impairment in Parkinson’s disease: Movement Disorder Society Task Force guidelines. Mov Disord 2012; 27: 349–56.
-[^2]:
-[^3]:
-[^4]:
-[^5]:
-[^6]:
+[^2]: Destrieux C, Fischl B, Dale A, Halgren E. Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature. Neuroimage 2010; 53: 1–15.
+[^3]: Schaefer A, Kong R, Gordon EM, Laumann TO, Zuo X-N, Holmes AJ, et al. Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI. Cereb Cortex 2018; 28: 3095–3114.
+[^4]: Amico E, Goñi J. Mapping hybrid functional-structural connectivity traits in the human connectome. Netw Neurosci 2018; 2: 306–322.
+[^5]: Amico E, Goñi J. The quest for identifiability in human functional connectomes. Sci Rep 2018; 8: 8254.
