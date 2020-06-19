@@ -16,17 +16,17 @@ social:
 ---
 
 
-# [Introduction](#Introduction)
+# [Introduction](#introduction)
 
 Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-known risk factor for dementia. Nevertheless, MCI key network changes are still mostly unknown. Functional connectivity resting state networks (RSNs), such as the default mode, dorsal attention, executive control and sensorimotor networks, have been reported to correlated with cognitive deficits in PD. This study investigates how whole-brain functional networks are affected by MCI in PD using a Connectome ICA (connICA) analysis with resting state functional MRI (RS-fMRI).
 
-# [Dataset](#Dataset)
+# [Dataset](#dataset)
 
 87 participants (26 PDCN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils. A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. PD patients were under anti-parkinsonian medication during the study
 ![](./images/dataset.jpg){:width="100%"}
 **Figure 1: Dataset structure. Motion based censoring was done after Functional preprocessing eliminating the subjects with more than 20% of censored volumes. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained**
 
-# [Acqusition and Preprocesing](#Preprocesing)
+# [Acqusition and Preprocesing](#preprocesing)
 
 For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms). 
 ![](./images/Anatomical_preprocessing.jpg){:width="100%"}
@@ -47,7 +47,7 @@ FC matrices were computed using Schaefer atlas plus subcortical areas of Destrie
 
 Linear mixed effect (LME) model on the weights of each FC-trait with group (HC, PDCN, PD-MCI) with the sequence (monoband, multiband) as fixed factor, and subjects as random factor. Anova p-values are corrected (Bonferroni method). Incremental ANOVAs and individual F-tests were computed to evaluate the relationship between the FC-traits and neuropsychological assessments.
 
-# [Results](#Results)
+# [Results](#results)
 
 ![](./images/Trait5.jpg){:width="100%"}
 **Figure 5:**
@@ -66,7 +66,7 @@ Trait 13 that compromises Visual-parietal and visual-executive control connectio
 
 Trait 34 mainly shows the angular gyrus connecting to temporal, parietal and visual connections differentiates all three groups from each other. However, behavioral tests didn't correlate.
 
-# [Take home](#Take_home)
+# [Take home](#take-home)
 
 - Pronounced subcortico-cortical and visuo-cortical FC changes related to attentional and motor skills differentiated PD patients from healthy controls.
  
