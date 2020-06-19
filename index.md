@@ -26,7 +26,7 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 ![](./images/dataset.jpg){:width="100%"}
 **Figure 1: Dataset structure. Motion based censoring was done after Functional preprocessing eliminating the subjects with more than 20% of censored volumes. After motion based censoring, 21 HC, 21 PDCN and, 23 PD-MCI subjects remained**
 
-# [Acqusition and Preprocesing](#preprocesing)
+# [Acqusition and Preprocessing](#preprocessing)
 
 For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms). 
 ![](./images/Anatomical_preprocessing.jpg){:width="100%"}
