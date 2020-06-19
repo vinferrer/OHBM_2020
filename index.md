@@ -69,7 +69,6 @@ Trait 34 mainly shows the angular gyrus connecting to temporal, parietal and vis
 # [Take home](#take-home)
 
 - Pronounced subcortico-cortical and visuo-cortical FC changes related to attentional and motor skills differentiated PD patients from healthy controls.
- 
 - Functional connections between attentional and sensorimotor regions are key for PD-MCI development, and are associated with deficits in attention and memory abilities.
 
 ---
