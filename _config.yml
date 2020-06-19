@@ -27,7 +27,6 @@ baseurl: "/OHBM_2020" # the subpath of your site, e.g. /blog
 
 
 
-
 lang: en-us # used in HTML lang attributes
 
 # on landing page
@@ -41,8 +40,8 @@ closing-para: _Your detailed closing_
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  # twitter: https://twitter.com/VFerrerGallardo
-  # github: https://github.com/vinferrer
+  # twitter: https://twitter.com/eurunuela
+  # github: https://github.com/eurunuela
   # # linkedin-square: https://linkedin.com/in/_username_
   # #google-plus-square: https://plus.google.com/u/0/+_username_
   # email: e.urunuela@bcbl.eu # you can configure and use this contact page or use your email addy
