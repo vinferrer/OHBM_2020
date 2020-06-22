@@ -22,20 +22,20 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 
 # [Dataset](#dataset)
 
-87 participants (26 PD-CN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils. A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. PD patients were under anti-parkinsonian medication during the study
+87 participants (26 PD-CN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils. A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. PD patients were under anti-parkinsonian medication during the study.
 ![](./images/dataset.jpg){:width="100%"}
-**Figure 1: Dataset structure. Motion based censoring was done after Functional preprocessing eliminating the subjects with more than 20% of censored volumes. After motion based censoring, 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained**
+**Figure 1: Dataset structure. Motion based censoring was done after Functional preprocessing eliminating the subjects with more than 20% of censored volumes. After motion based censoring, 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained.**
 
-# [Acqusition and Preprocessing](#preprocessing)
+# [Acquisition and Preprocessing](#preprocessing)
 
 For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms). 
 ![](./images/Anatomical_preprocessing.jpg){:width="100%"}
-**Figure 2: Anatomical Preprocessing**
+**Figure 2: Anatomical Preprocessing.**
 
 Brain parcellation was performed using FreeSurfer based on the Destrieux atlas (72 cortical and 8 subcortical regions for hemisphere)[^2]. Structural images were registered to the functional images.
 fMRI preprocessing included despiking, slice timing, EPI distortion correction, head realignment and nuisance regression. After motion based censoring, 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained.
 ![](./images/Functional_preprocessing.jpg){:width="100%"}
-**Figure 3: Functional Preprocessing**
+**Figure 3: Functional Preprocessing.**
 
 fMRI preprocessing (AFNI) included despiking, slice timing, EPI distortion correction, head realignment, nuisance regression (6 Legendre polynomials, 6 realignment parameters plus temporal derivatives, 5 principal components of WM and ventricle CSF voxels and 5 PCs of brain’s edge voxels). After Motion based censoring, (Frame wise displacement(9)> 0.4), 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained for further analysis.
 
@@ -43,26 +43,26 @@ fMRI preprocessing (AFNI) included despiking, slice timing, EPI distortion corre
 
 FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas [^3] and then inputed to connICA [^4] using MELODIC with 65 independent FC-traits, which was the optimal PCA component for subject identifiability [^5]. 
 ![](./images/ConnICA.jpg){:width="100%"}
-**Figure 4: ConnICA Analysis**
+**Figure 4: ConnICA Analysis.**
 
 Linear mixed effect (LME) model on the weights of each FC-trait with group (HC, PD-CN, PD-MCI) with the sequence (monoband, multiband) as fixed factor, and subjects as random factor. Anova p-values are corrected (Bonferroni method). Incremental ANOVAs and individual F-tests were computed to evaluate the relationship between the FC-traits and neuropsychological assessments.
 
 # [Results](#results)
 
 ![](./images/Trait5.jpg){:width="100%"}
-**Figure 5: Subcortical connectivity trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure**
+**Figure 5: Subcortical connectivity trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 FC-trait 5 has subcortical hubs in putamen, caudate and thalamus, highlighting a clear manifestation of the ganglia-thalamo-cortical alterations at the onset of PD. This FC-trait is mainly associated with attentional tests implying attentional deficits at the beginning of PD.
 ![](./images/Trait9.jpg){:width="100%"}
-**Figure 6: Sensorimotor and attention networks trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure**
+**Figure 6: Sensorimotor and attention networks trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 FC-trait 9 mainly involves inter- and intra-hemispheric connections between regions of the primary and secondary motor and somatosensory cortices and dorsal and ventral attention networks.  Although UPDRS-III is link to this trait, attention and memory behavioral test are significantly linked suggesting a motor disfunction in the PD-MCI patients that is related to attentional and memory impairments.  The significance of language test could be an effect from the semantic fluency test.
 ![](./images/Trait13.jpg){:width="100%"}
-**Figure 7:Visual and fronto-parietal connections trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure**
+**Figure 7:Visual and fronto-parietal connections trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 Trait 13 that compromises Visual-parietal and visual-executive control connections differentiates HC from PD groups. Anova regressions associate it to UPDRS-III which suggest a connection to motor symptoms.
 ![](./images/Trait34.jpg){:width="100%"}
-**Figure 8: Angular gyrus temporal and attention trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure**
+**Figure 8: Angular gyrus temporal and attention trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 Trait 34 mainly shows the angular gyrus connecting to temporal, parietal and visual connections differentiates all three groups from each other. However, behavioral tests didn't correlate.
 
