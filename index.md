@@ -33,7 +33,8 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 - Memory: Rey Auditory Verbal Learning Test (RAVLT), Rey–Osterrieth complex figure test (ROCF)
 - Language: semantic fluency test, Boston naming test 
 - Visuospatial:  Object decision and number location from the Visual Object and Space Perception Battery (VOSP)
- PD patients were under anti-parkinsonian medication during the study.
+PD patients were under anti-parkinsonian medication during the study.
+
 # [Acquisition and Preprocessing](#preprocessing)
 
 For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms).
