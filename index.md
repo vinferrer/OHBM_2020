@@ -70,14 +70,17 @@ Linear mixed effect (LME) model on the weights of each FC-trait with group (HC, 
 **Figure 6: Subcortical connectivity trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 FC-trait 5 has subcortical hubs in putamen, caudate and thalamus, highlighting a clear manifestation of the ganglia-thalamo-cortical alterations at the onset of PD. This FC-trait is mainly associated with attentional tests implying attentional deficits at the beginning of PD.
+
 ![](./images/Trait9.jpg){:width="100%"}
 **Figure 7: Sensorimotor and attention networks trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 FC-trait 9 mainly involves inter- and intra-hemispheric connections between regions of the primary and secondary motor and somatosensory cortices and dorsal and ventral attention networks.  Although UPDRS-III is link to this trait, attention and memory behavioral test are significantly linked suggesting a motor disfunction in the PD-MCI patients that is related to attentional and memory impairments.  The significance of language test could be an effect from the semantic fluency test.
+
 ![](./images/Trait13.jpg){:width="100%"}
 **Figure 8:Visual and fronto-parietal connections trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
 Trait 13 that compromises Visual-parietal and visual-executive control connections differentiates HC from PD groups. Anova regressions associate it to UPDRS-III which suggest a connection to motor symptoms.
+
 ![](./images/Trait34.jpg){:width="100%"}
 **Figure 9: Angular gyrus temporal and attention trait results. A) Circular plot B)  nodal strength brain maps of each ROI C) Left: Anova regressions incrementally adding first anthropometric measures and coginitve tests. Right: F-value obtanined by comparing the baseline model (only anthropometric measures) with a cognitive test or motor measure.**
 
