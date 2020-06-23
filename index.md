@@ -27,7 +27,7 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 ![](./images/dataset.jpg){:width="100%"}
 **Figure 1: Dataset structure. Motion based censoring was done after Functional preprocessing eliminating the subjects with more than 20% of censored volumes. After motion based censoring, 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained.**
  
- A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^2]. We evaluated the cognitive state of each participant with a battery of two neuropsychological test for each cognitive domain:
+ A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^2] . We evaluated the cognitive state of each participant with a battery of two neuropsychological test for each cognitive domain:
 - Attention: Inverse digit span memory test, Symbol digit modalities test
 - Executive function: trail making test B, phonetic fluency
 - Memory: Rey Auditory Verbal Learning Test (RAVLT), Rey–Osterrieth complex figure test (ROCF)
@@ -52,7 +52,7 @@ fMRI preprocessing (AFNI) included despiking, slice timing, EPI distortion corre
 
 # [ConnICA](#ConnICA)
 
-FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas[^3] [^4]. We used Principal Component Analysis (PCA) as a cleaning step, the number of components preserved was chosen by reconstructing the connectivity matrices and checking the identifiability of individual subjects in each reconstruction[^5]. The dimensionality reduction resulted in 65 components.
+FC matrices were computed using Schaefer atlas plus subcortical areas of Destrieux atlas[^3] [^4] . We used Principal Component Analysis (PCA) as a cleaning step, the number of components preserved was chosen by reconstructing the connectivity matrices and checking the identifiability of individual subjects in each reconstruction[^5] . The dimensionality reduction resulted in 65 components.
 
 ![](./images/ident.jpg){:width="100%"}
 **Figure 4. Criteria for dimensionality reduction based on the increase of the identifiability, in our case 65 components was the number of components selected by this criteria.**
