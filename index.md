@@ -22,18 +22,28 @@ Mild cognitive impairment (MCI), frequent in Parkinson Disease (PD), is a well-k
 
 # [Dataset](#dataset)
 
-87 participants (26 PD-CN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils. A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. PD patients were under anti-parkinsonian medication during the study.
+87 participants (26 PD-CN and 33 PD-MCI and 28 HC) were recruited and scanned in Siemens Trio 3T MR scanner with 32 channel head coils
+
 ![](./images/dataset.jpg){:width="100%"}
 **Figure 1: Dataset structure. Motion based censoring was done after Functional preprocessing eliminating the subjects with more than 20% of censored volumes. After motion based censoring, 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained.**
-
+ 
+ A battery of neuropsychological tests was taken by each individual to diagnose PD-MCI according to MDS task force guidelines (level II) [^1]. We evaluated the cognitive state of each participant with a battery of two neuropsychological test for each cognitive domain:
+- Attention: Inverse digit span memory test, Symbol digit modalities test
+- Executive function: trail making test B, phonetic fluency
+- Memory: Rey Auditory Verbal Learning Test (RAVLT), Rey–Osterrieth complex figure test (ROCF)
+- Language: semantic fluency test, Boston naming test 
+- Visuospatial:  Object decision and number location from the Visual Object and Space Perception Battery (VOSP)
+ PD patients were under anti-parkinsonian medication during the study.
 # [Acquisition and Preprocessing](#preprocessing)
 
-For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms). 
+For each subject, we collected: T1-weighted and T2-weighted anatomical scans (1 mm isotropic voxels), and 10 minutes eyes-open resting state BOLD fMRI images with standard (monoband, TR=2s, 33 slices) and multiband (TR=800ms, 45 slices) GE-EPI images (3 mm isotropic voxels, matrix size= 64x64, TE= 28ms).
+
 ![](./images/Anatomical_preprocessing.jpg){:width="100%"}
 **Figure 2: Anatomical Preprocessing.**
 
 Brain parcellation was performed using FreeSurfer based on the Destrieux atlas (72 cortical and 8 subcortical regions for hemisphere)[^2]. Structural images were registered to the functional images.
 fMRI preprocessing included despiking, slice timing, EPI distortion correction, head realignment and nuisance regression. After motion based censoring, 21 HC, 21 PD-CN and, 23 PD-MCI subjects remained.
+
 ![](./images/Functional_preprocessing.jpg){:width="100%"}
 **Figure 3: Functional Preprocessing.**
 
